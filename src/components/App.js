@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import Main from './Main';
-import SignIn from './SignIn';
+import {Main} from './Main';
+import {SignIn} from './SignIn';
 import config from '../config.json';
 
 export default () => {

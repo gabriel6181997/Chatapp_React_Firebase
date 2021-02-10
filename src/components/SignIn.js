@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignIn({setName}) {
+export function SignIn({setName}) {
   const classes = useStyles();
   const [disabled,setDisabled] = useState(true);
   const [string, setString] =useState('');

@@ -43,6 +43,8 @@ export function SignIn({setName}) {
   const classes = useStyles();
   const [disabled,setDisabled] = useState(true);
   const [string, setString] =useState('');
+  console.log({string});
+
   const [isComposed, setIsComposed] = useState(false);
 
   useEffect(()=>{

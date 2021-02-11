@@ -16,8 +16,8 @@ export function Main ({name}) {
 
   return(
    <div className={classes.root}>
-    <MessageList />
-    <MessageInputField name={name}/>
+     <MessageList />
+     <MessageInputField name={name}/>
    </div>
   )
 };

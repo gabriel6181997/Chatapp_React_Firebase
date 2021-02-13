@@ -7,7 +7,7 @@ import { InputLabel } from "@material-ui/core";
 export function MessageSubmitButton({inputEl, name, text, setText}){
   return (
     <IconButton disabled={text === ''} onClick={()=>{
-      pushMessage({name:'Gabriel',text});
+      pushMessage({name,text});
       setText('');
       inputEl.current.focus();
     }}>
